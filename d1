@@ -47,6 +47,8 @@ merged_df = pd.concat([df_file1, df_file2], ignore_index=True)
 print("Merged DataFrame:")
 merged_df
 
+
+sales_data = pd.read_csv('sample_dataset.csv')
 print("Descriptive Statistics:")
 sales_data.describe()
 
